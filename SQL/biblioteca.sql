@@ -20,7 +20,10 @@ CREATE TABLE `Autor` (
 CREATE TABLE `Editora` (
   `id` int PRIMARY KEY,
   `nome` varchar(255),
-  `endereco` varchar(255)
+  `endereco` varchar(255),
+  `pais` varchar(255),
+  `telefone` varchar(255),
+  `email` varchar(255)
 );
 
 CREATE TABLE `Idioma` (
